@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="Bullwhip Effect,Supply Chain,IoT,Blockchain,Artificial Intelligence,Internet of Things,供应链,区块链,人工智能,物联网,神经网络,自主智能体,Autonomous Agent">
+<meta name="author" content="Larry Leung">
+<link rel="shortcut icon" href="images/shape/SynergyLogoSmall.jpg" type="image/x-icon"> 
+<title>Synergy - Bullwhip Effect Simulation</title>
+<meta name="Synergy Supply Chain" content="width=device-width, initial-scale=1">
+<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding-left: 10px; padding-right: 10px
+}
+button {
+  background-color: orange;
+}
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+	
+}
+</style>
+</head>
+<body onload="startSimulate()" class="width = 100">
+<script>
+var traderWidth = 190;
+var traderGap = 60;
+var stockShowMax = 500;
+var thisLang = 0;
+var isCapturing = false; 	//default not capturing
+</script>
+<script src="js/SimulationBullwhip.js"></script>
+</body>
+</html>
+
